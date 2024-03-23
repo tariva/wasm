@@ -9,7 +9,8 @@ This project demonstrates a basic keylogger implemented in Rust, compiled to Web
 - Webpack Integration: Utilizes Webpack to serve the Wasm module and facilitate easy development workflows.
 - Project Structure
 - src/: Rust source files implementing the keylogging logic.
-- pkg/: JavaScript files responsible for loading and executing the WebAssembly module.
+- pkg/: built WebAssembly module.
+- wasmdemo/src: rust sourcecode
 - webpack.config.js: Configuration file for Webpack.
 - index.html: Entry point of the web application demonstrating the keylogger.
 
