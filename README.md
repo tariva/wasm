@@ -24,5 +24,6 @@ To build and run this project, you will need:
 
 ## usage
 
-``cd wasmdemo && cargo build -r``
-``wasm-pack pack``
+``cd wasmdemo && wasm-pack build --target web``
+``cd .. && cp -r ./wasmdemo/pkg ./pkg && rm -r ./wasmdemo/pkg``
+``npm run build``
